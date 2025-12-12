@@ -43,7 +43,7 @@ a:hover {
 
 /* Images & iframe (p5 sketch) */
 img,
-iframe {
+script{
   display: block;
   margin: 20px auto;
   border: 2px solid #ddd;
