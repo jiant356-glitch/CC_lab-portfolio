@@ -152,10 +152,6 @@ function draw() {
   }
 }
 
-
-// ------------------------------------------------
-// ---------------- START SCREEN ------------------
-// ------------------------------------------------
 function drawStartScreen() {
   fill(0);
   textAlign(CENTER, CENTER);
@@ -172,9 +168,6 @@ function drawStartScreen() {
 }
 
 
-// ------------------------------------------------
-// ---------------- END SCREEN --------------------
-// ------------------------------------------------
 function drawEndScreen() {
   textAlign(CENTER, CENTER);
 
@@ -209,10 +202,6 @@ function restartGame() {
   loop(); // resume drawing
 }
 
-
-// ------------------------------------------------
-// ---------------- MOVEMENT ETC ------------------
-// ------------------------------------------------
 function handleMovement() {
   if (frozen || gameOver) return;
 
@@ -244,9 +233,6 @@ function drawPerson(x, y) {
 }
 
 
-// ------------------------------------------------
-// ------------ START GAME WHEN SPACE ------------
-// ------------------------------------------------
 function keyPressed() {
   if (!started && key === ' ') {
     started = true;
